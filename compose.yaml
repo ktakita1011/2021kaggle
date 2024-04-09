@@ -2,12 +2,12 @@ services:
   app:
     build: .
     deploy:
-      resources:
-        reservations:
-          devices:
-            - driver: nvidia
-              count: 1
-              capabilities: [gpu]
+      # resources:
+      #   reservations:
+      #     devices:
+      #       - driver: nvidia
+      #         count: 1
+      #         capabilities: [gpu]
     shm_size: '24gb'
     volumes:
       - ./:/kaggle

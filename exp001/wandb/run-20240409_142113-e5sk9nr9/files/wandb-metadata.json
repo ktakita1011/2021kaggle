@@ -1,0 +1,23 @@
+{
+    "os": "Linux-5.15.146.1-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+    "python": "3.10.12",
+    "heartbeatAt": "2024-04-09T14:21:29.769763",
+    "startedAt": "2024-04-09T14:21:13.952260",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "--f=/root/.local/share/jupyter/runtime/kernel-v2-327iLrMIya69Pen.json"
+    ],
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "git@github.com:hzume/my_kaggle_docker.git",
+        "commit": "8f949fd655605854fc2b1faa450e364374de0d1e"
+    },
+    "email": null,
+    "root": "/kaggle",
+    "host": "995dcc719db8",
+    "username": "root",
+    "executable": "/opt/conda/bin/python"
+}

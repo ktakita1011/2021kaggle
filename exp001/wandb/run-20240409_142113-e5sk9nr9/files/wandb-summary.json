@@ -1,0 +1,1 @@
+{"valid_0_auc": {"max": 0.71484375}, "iteration": 1999, "_runtime": 13, "_timestamp": 1712672486, "_step": 1999, "best_iteration": 0, "best_score": {"valid_0": {"auc": 0.70703125}}}

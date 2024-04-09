@@ -1,0 +1,80 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.12.9
+    framework: lightgbm
+    is_jupyter_run: true
+    is_kaggle_kernel: true
+    m:
+    - 1: valid_0_auc
+      6:
+      - 3
+      7:
+      - 2
+    python_version: 3.10.12
+    start_time: 1712672473
+    t:
+      1:
+      - 5
+      - 8
+      3:
+      - 13
+      4: 3.10.12
+      5: 0.12.9
+      8:
+      - 1
+      - 2
+      - 5
+boosting_type:
+  desc: null
+  value: gbdt
+colsample_bynode:
+  desc: null
+  value: 0.8
+colsample_bytree:
+  desc: null
+  value: 0.8
+device:
+  desc: null
+  value: cpu
+early_stopping_round:
+  desc: null
+  value: null
+extra_trees:
+  desc: null
+  value: true
+is_training_metric:
+  desc: null
+  value: true
+learning_rate:
+  desc: null
+  value: 0.05
+max_depth:
+  desc: null
+  value: 10
+metric:
+  desc: null
+  value: auc
+num_iterations:
+  desc: null
+  value: 2000
+num_leaves:
+  desc: null
+  value: 64
+objective:
+  desc: null
+  value: binary
+random_state:
+  desc: null
+  value: 42
+reg_alpha:
+  desc: null
+  value: 0.1
+reg_lambda:
+  desc: null
+  value: 10
+verbose:
+  desc: null
+  value: -1
